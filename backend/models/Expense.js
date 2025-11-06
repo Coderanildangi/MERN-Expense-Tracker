@@ -29,5 +29,4 @@ const expenseSchema = new mongoose.Schema({
   timestamps: true
 });
 
-//const arrayLimit = val => val.length > 0;
 module.exports = mongoose.model('Expense', expenseSchema);
